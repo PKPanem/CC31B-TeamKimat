@@ -3,13 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PapayaGame" xmlns:models="clr-namespace:Engine.Models;assembly=Engine" d:DataContext="{d:DesignInstance Type=models:Player}"
+        xmlns:local="clr-namespace:PapayaGame" 
          mc:Ignorable="d"
         Title="PapayaGame" Height="768" Width="1024">
-   
-    <Window.Recources>
-            <BooleanToVisibilityConverter x:Key="BooleanToVibility"/>
-    </Window.Recources>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    </Window.Resources>
+
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -24,8 +26,7 @@
         </Grid.ColumnDefinitions>
 
 
-
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Menu" Background="#EDECE8"/>
+    <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Menu" Background="#EDECE8"/>
 
         <!-- Player Info -->
         <Grid Grid.Row="1" Grid.Column="0">
@@ -62,7 +63,7 @@
                 <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Gold}"/>
                 <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
                 <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
-                <Button Grid.Row="6" Grid.Column="1" Content="Add Gold" Click=""/>
+                <Button Grid.Row="6" Grid.Column="1" Content="Add Gold" Click="AddGold_Click"/>
             </Grid>
 
             <Label Grid.Row="1" Grid.Column="0" Content="Player Image" Background="#FBF7B1"/>
@@ -97,7 +98,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Border Grid.Row="0" Margin="3" BorderBrush="Gainsboro" BorderThickness="1">
-                <TextBlock Grid.Row="0"
+                    <TextBlock Grid.Row="0"
                            HorizontalAlignment="Center"
                            Text="{Binding CurentLocation.Name}"/>
                 </Border>
@@ -119,38 +120,48 @@
 
         <Label Grid.Row="2" Grid.Column="2" Content="Navigation Buttons" Background="#FCF9C5"/>
         <Grid Grid.Row="2" Grid.Column="2"/>
-            <Grid.RowDefinition>
-                <Grid.RowDefinition Height="*"/>
-                <Grid.RowDefinition Height="*"/>
-                <Grid.RowDefinition Height="*"/>
-            </Grid.RowDefinition>
+
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-   
-            <Button Grid.Row="0" Grid.Column="1"
+        </Grid>
+
+
+
+
+
+        <Button Grid.Row="0" Grid.Column="1"
                     Height="25" Width="65" Margin="10"
                     Content="North"
                     Click="OnCLick_MoveNorth"
-                    Visibility="{Binding HasLocationToNorth, Converter={StaticResource BooleanToVIsibility}}"/>
-            <Button Grid.Row="1" Grid.Column="1"
+                    Visibility="{Binding HasLocationToNorth, Converter={StaticResource BooleanToVisibility}}"/>
+        <Button Grid.Row="1" Grid.Column="1"
                     Height="25" Width="65" Margin="10"
                     Content="West"
                     Click="OnCLick_MoveWest"
-                    Visibility="{Binding HasLocationToWest, Converter={StaticResource BooleanToVIsibility}}"/>
-            <Button Grid.Row="1" Grid.Column="2"
+                    Visibility="{Binding HasLocationToWest, Converter={StaticResource BooleanToVisibility}}"/>
+        <Button Grid.Row="1" Grid.Column="2"
                     Height="25" Width="65" Margin="10"
                     Content="East"
                     Click="OnCLick_MoveEast"
-                    Visibility="{Binding HasLocationToEast, Converter={StaticResource BooleanToVIsibility}}"/>
-            <Button Grid.Row="2" Grid.Column="1"
+                    Visibility="{Binding HasLocationToEast, Converter={StaticResource BooleanToVisibility}}"/>
+        <Button Grid.Row="2" Grid.Column="1"
                     Height="25" Width="65" Margin="10"
                     Content="South"
                     Click="OnCLick_MoveSouth"
-                    Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVIsibility}}"/>
-         </Grid>
-   
-    </Grid>    
-</Window>
+                    Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>
+    </Grid>
+
+    
+</Window>    
+
