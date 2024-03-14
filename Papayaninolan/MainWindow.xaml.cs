@@ -40,4 +40,8 @@ public partial class MainWindow : Window
     {
         _gamesession.MoveSouth();
     }
+    private void AddGold_Click(object sender, RoutedEventArgs e)
+    {
+    
+    }
 }
