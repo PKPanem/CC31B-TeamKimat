@@ -13,5 +13,10 @@ namespace Engine.Models
         public string Name {  get; set; }
         public string Description {  get; set; }
         public string ImageName {  get; set; }
+
+        internal bool LocationAt(int v, intyCoordinate)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
