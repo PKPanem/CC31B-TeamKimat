@@ -1,14 +1,16 @@
+using Engine.Factories;
 using Engine.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Engine.ViewModels
 {
-    public class GameSession : INotifyCollectionChanged
+    public class GameSession : INotifyPropertyChanged
     {
         private Location _currentLocation;
         public Player CurrentPlayer { get; set; }
@@ -26,37 +28,39 @@ namespace Engine.ViewModels
 
             }
         }
-        public World CurrentWorld { get; set; }
-        public bool HasLocationToNorth
+           public bool HasLocationToNorth
         {
             get
             {
-                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate +1); !null;
+                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1) != null;
             }
         }
         public bool HasLocationToSouth
         {
             get
             {
-                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate -1); !null;
+                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1) != null;
             }
         }
         public bool HasLocationToWest
         {
             get
             {
-                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate -1, CurrentLocation.YCoordinate ); !null;
+                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate ) != null;
             }
         }
         public bool HasLocationToEast
         {
             get
             {
-                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate +1, CurrentLocation.YCoordinate ); !null;
+                return CurrentLocation.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate ) != null;
             }
         }
+        public World CurrentWorld { get; set; }
+        
         public GameSession()
         {
+        
             CurrentPlayer = new Player();
             CurrentPlayer.Name = "Nolan";
             CurrentPlayer.CharacterClass = "Fighter";
@@ -80,19 +84,19 @@ namespace Engine.ViewModels
     }
         public void MoveNorth()
         {
-            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate +1);
+            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1);
         }
         public void MoveSouth()
         {
-            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate-1);
+            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate- 1);
         }
         public void MoveWest()
         {
-            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate -1, CurrentLocation.YCoordinate);
+            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate);
         }
         public void MoveEast()
         {
-            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate +1, CurrentLocation.YCoordinate);
+            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate);
         }
 
     }
