@@ -9,7 +9,7 @@ namespace Engine.Factories
 {
     public class WorldFactory
     {
-        internal World CreatWorld()
+        public World CreatWorld()
         {
              World newWorld = new World();
 
