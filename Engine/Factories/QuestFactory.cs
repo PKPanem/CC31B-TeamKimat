@@ -28,55 +28,55 @@ namespace Engine.Factories
             rewardItems.Add(new ItemQuantity(67, 1));
             rewardItems.Add(new ItemQuantity(68, 1));
             rewardItems.Add(new ItemQuantity(69, 1));
-            rewardItems.Add(new ItemQuantity(70, 1));
+            rewardItems.Add(new ItemQuantity(70, 1)); 
 
             _quests.Add(new Quest(1,
-                                  "The Missing Letter: Look for the missing letter of Choco Pirate Cookie",
-                                  "It is said that on the Choco Pirate's journey across the Cinnamon Coral Ocean, he lost his treasure and left a letter there.",
+                                  "The Papaya Plunder: Seek the Absent Glyph of Papaya Buccaneer Fruit",
+                                  "Legend has it that amidst Papaya Buccaneer's voyage through the Mango Mist Sea, he misplaced his bounty, leaving behind a symbol.",
                                   itemsToComplete,
                                   25, 10,
                                   rewardItems));
             _quests.Add(new Quest(2,
-                                  "Oh no, we can't cross: Make a Bridge to Bamboo Cookie Forest",
-                                  "Time to play architect and build a bridge that’s strong enough for a cookie, but not too tasty for them to eat!" +
-                                  "\nThe bridge connecting Bamboo Cookie Forest and Fondue Lake was said to be destroyed by a group of Burnt Cookies due to an argument about who was the crumbiest amongst them",
+                                  "Alas, Our Path is Blocked: Forge a Path to Papaya Grove",
+                                  "Take on the role of a fruity architect and construct a bridge sturdy enough for a papaya adventurer, but not tempting enough for them to nibble away!" +
+                                  "\nThe link between Papaya Grove and Mango River was shattered by a band of Charred Crumbles in a dispute over who was the most burnt among them.",
                                   itemsToComplete,
                                   25, 10,
                                   rewardItems));
             _quests.Add(new Quest(3,
-                                  "Matcha Tea Time Alliance: Befriend Mayor Green Tea Butter",
-                                  "Win over Mayor Green Tea Butter for him to give a special ingredient" +
-                                  "\nLet me tell you a rumor, there's a mayor in Matcha Green Province that likes butter with his tea. Yikes! don't let the breadish people know!",
+                                  "Papaya Paradise Pact: Ally with Mayor Papaya Leaf Butter",
+                                  "Earn the trust of Mayor Papaya Leaf Butter to secure a rare ingredient." +
+                                  "nHere's the scoop: There's a mayor residing in Papaya Paradise Province who enjoys papaya leaf butter with his tea. Keep it under wraps! We wouldn't want the fruity folks to catch wind of it!",
                                   itemsToComplete,
                                   25, 10,
                                   rewardItems));
             _quests.Add(new Quest(4,
-                                "Crumby Encounter: Look for Macaroon Cookie and give him the ingredients for “Golden Croissant”",
-                                "Seek out Macaroon Cookie at the Bamboo Cookie Forest, the master baker with a golden touch for croissants. Rumor has it, his pastries are so shiny, you might just need sunglasses to see them!",
+                                "Papaya Peril: Locate Papaya Puff Cookie and Supply Ingredients for the "Golden Papaya Puff"",
+                                "Hunt down Papaya Puff Cookie deep within the Papaya Grove, renowned as the master baker with a golden knack for creating delectable papaya pastries. Word on the vine suggests his treats gleam so bright, you might need shades just to gaze upon them!",
                                 itemsToComplete,
                                 25, 10,
                                 rewardItems));
             _quests.Add(new Quest(5,
-                                "Go where the X is: Follow the treasure map given by Choco Pirate Cookie",
-                                "A dessert full of craft and uneven peak, making you second-guess your visit for sure, the Crinkles Dessert holds what you seek, so go forth your journey to find the treasure.",
+                                "Venture to the Papaya Perch: Pursue the Treasure Map Presented by Papaya Buccaneer Cookie",
+                                "Embark on a quest to the Crinkled Cove, a dessert land adorned with papaya delights and peculiar peaks, where doubt may cloud your path. Amidst the folds of the Crinkles Dessert lies your sought-after bounty, so set sail on your journey to uncover the treasure.",
                                 itemsToComplete,
                                 25, 10,
                                 rewardItems));
             _quests.Add(new Quest(6,
-                                "Land of Cleanliness: Get White Chocolate Mocha Concentrate",
-                                "There was once a legend that hides on white waters, they lived in concentrated that fall naturally from the mountain at White Chocolate Mocha Falls.",
+                                "Papaya Haven: Retrieve Papaya Cream Espresso Essence",
+                                "Legend speaks of a sacred place nestled amidst the Papaya Peaks, where the purest essence flows from the heights of Papaya Cream Falls. This concentrated elixir, coveted by many, is said to possess the essence of the papaya fruit itself. Journey forth to claim the Papaya Cream Espresso Essence from its natural source.",
                                 itemsToComplete,
                                 25, 10,
                                 rewardItems));
             _quests.Add(new Quest(7,
-                                "Let the path lead you: Follow Golden Prophet Cookie to the City",
-                                "When you surrender to the divine, you let them lead the path for you. The residents think it’s cheesy, but even on the most Tropical Cheesy Beach, you will find your meaning.",
+                                "Follow the Papaya Oracle: Accompany Golden Prophet Cookie to the Papaya Metropolis",
+                                "Embrace the papaya's divine guidance as you journey alongside Golden Prophet Cookie to the heart of the Papaya Metropolis. In surrendering to the fruit's wisdom, let it pave your way. Though locals may find it fruity, even amidst the sands of Tropical Papaya Beach, your purpose shall be revealed..",
                                 itemsToComplete,
                                 25, 10,
                                 rewardItems));
             _quests.Add(new Quest(8,
-                                "Long way home: Give the Golden Croissant to Vanilla Cookie",
-                                "The divine seeks your presence in their dwelling heavenly chocolate place. And on this last leg of your journey, remember that the best journey takes you home.",
+                                "Papaya Pilgrimage: Deliver the Golden Papaya Puff to Vanilla Cookie",
+                                "As you traverse through the divine realms of papaya perfection, remember that the true essence of your quest lies within the heavenly embrace of Papaya Chocolate Haven. And as you embark on this final stretch of your journey, recall that the most rewarding path always leads you back to the sweet familiarity of home.",
                                 itemsToComplete,
                                 25, 10,
                                 rewardItems));
