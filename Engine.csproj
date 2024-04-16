@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Items\BearJellyCoins.png" />
+    <None Remove="Images\Items\CookieAxe.png" />
+    <None Remove="Images\Items\CookieGun.png" />
+    <None Remove="Images\Items\CookiePowder.png" />
+    <None Remove="Images\Items\CrystalJam.png" />
+    <None Remove="Images\Items\GoldenCroissant.png" />
+    <None Remove="Images\Items\InsigniaCookieTreasure.png" />
+    <None Remove="Images\Items\StarJelly.png" />
+    <None Remove="Images\Items\SugarCrystals.png" />
+    <None Remove="Images\Items\TheJellyofMemories.png" />
+    <None Remove="Images\Locations\CrinkleDessert.png" />
+    <None Remove="Images\Monsters\6afe7cf864d8911219c22ba61ccb2bd4.jpg" />
+    <None Remove="Images\Monsters\BurntCookies.png" />
+    <None Remove="Images\Monsters\DoughOgres.png" />
+    <None Remove="Images\Monsters\GiantGingerbreadOgre.png" />
+    <None Remove="Images\Monsters\NotSoSmore.png" />
+    <None Remove="Images\Monsters\OverbakedCupcake.png" />
+    <None Remove="Images\Monsters\TheTeeth.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Items\InsigniaCookieTreasure.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Resource Include="Images\Items\BearJellyCoins.png" />
+	<Resource Include="Images\Items\CookieAxe.png" />
+	<Resource Include="Images\Items\CookieGun.png" />
+	<Resource Include="Images\Items\CookiePowder.png" />
+	<Resource Include="Images\Items\CrystalJam.png" />
+	<Resource Include="Images\Items\GoldenCroissant.png" />
+	<Resource Include="Images\Items\StarJelly.png" />
+	<Resource Include="Images\Items\SugarCrystals.png" />
+	<Resource Include="Images\Items\TheJellyofMemories.png" />
+	<Resource Include="Images\Locations\CrinkleDessert.png" />
+	<Resource Include="Images\Locations\home.png" />
+	<Resource Include="Images\Locations\MatchaGreenOffice.png" />
+	<Resource Include="Images\Locations\FondueLake.png" />
+	<Resource Include="Images\Locations\BambooCookieForest.png" />
+	<Resource Include="Images\Locations\WhiteChocolateHeaven.png" />
+	<Resource Include="Images\Locations\WhiteChocolateMochaFalls.png" />
+	<Resource Include="Images\Locations\VanillaIceCity.png" />
+	<Resource Include="Images\Locations\TropicalCheeseBeach.png" />
+	<Resource Include="Images\Locations\CinnamonCoralOcean.png" />
+	<Resource Include="Images\Locations\ChocoLavaIsland.png" />
+	<Resource Include="Images\Monsters\6afe7cf864d8911219c22ba61ccb2bd4.jpg" />
+	<Resource Include="Images\Monsters\BurntCookies.png" />
+	<Resource Include="Images\Monsters\DoughOgres.png" />
+	<Resource Include="Images\Monsters\GiantGingerbreadOgre.png" />
+	<Resource Include="Images\Monsters\NotSoSmore.png" />
+	<Resource Include="Images\Monsters\OverbakedCupcake.png" />
+	<Resource Include="Images\Monsters\TheTeeth.png" />
+  </ItemGroup>
+</Project>
