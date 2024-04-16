@@ -10,15 +10,15 @@ namespace Engine.Factories
         private static readonly List<Trader> _traders = new List<Trader>();
         static TraderFactory()
         {
-            Trader susan = new Trader("Susan");
-            susan.AddItemToInventory(ItemFactory.CreateGameItem(72));
-            Trader farmerTed = new Trader("Farmer Ted");
-            farmerTed.AddItemToInventory(ItemFactory.CreateGameItem(72));
-            Trader peteTheHerbalist = new Trader("Pete the Herbalist");
-            peteTheHerbalist.AddItemToInventory(ItemFactory.CreateGameItem(72));
-            AddTraderToList(susan);
-            AddTraderToList(farmerTed);
-            AddTraderToList(peteTheHerbalist);
+            Trader carandang = new Trader("Carandang");
+            carandang.AddItemToInventory(ItemFactory.CreateGameItem(72));
+            Trader farmerKurt = new Trader("Farmer Kurt");
+            farmerKurt.AddItemToInventory(ItemFactory.CreateGameItem(72));
+            Trader batasTheLaw = new Trader("Batas The Law");
+            batasTheLaw.AddItemToInventory(ItemFactory.CreateGameItem(72));
+            AddTraderToList(carandang);
+            AddTraderToList(farmerKurt);
+            AddTraderToList(batastheLaw);
         }
         public static Trader GetTraderByName(string name)
         {
