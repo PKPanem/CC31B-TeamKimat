@@ -16,62 +16,62 @@ namespace Engine.Factories
 
 
             newWorld.AddLocation(0, 0,
-            "Matcha Green Office",
+            "Papaya Grove",
             "Home",
-            "MatchaGreenOffice.png");
+            "PapayaGrove.png");
 
             newWorld.AddLocation(-1, 0,
-            "Fondue Lake",
-            "You see a lake!",
-            "FondueLake.png");
+            "PapayaCaverns",
+            "You see a cave!",
+            "PapayaCaverns.png");
             newWorld.LocationAt(-1, 0).AddMonster(1, 100);
 
             newWorld.AddLocation(-2, 0,
-            "Bamboo Cookie Forest",
-            "You see a forest!",
-            "BambooCookieForest.png");
+            "Papaya Enclave",
+            "You see a bountiful of papaya's!",
+            "PapayaEnclave.png");
             newWorld.LocationAt(-2, 0).AddMonster(2, 100);
 
             newWorld.AddLocation(-2, 1,
-            "White Chocolate Heaven",
-            "You see heaven!",
-            "WhiteChocolateHeaven.png");
+            "PapayaIsles",
+            "Rows of papaya's stand before you!",
+            "PapayaIsles.png");
 
 
             newWorld.AddLocation(-1, -1,
-            "White Chocolate Mocha Falls",
-            "You see a chocolate waterfall!",
-            "WhiteChocolateMochaFalls.png");
+            "Papaya Oasis",
+            "You see paradise in the form of a papaya!",
+            "PapayaOasis.png");
             
             newWorld.LocationAt(-1, -1).TraderHere =
                 TraderFactory.GetTraderByName("Farmer Ted");
 
             newWorld.AddLocation(1, 0,
-            "Vanilla Ice City",
-            "You see neighboring city!",
-            "VanillaIceCity.png");
+            "PapayaPalace",
+            "You see the heart of nolan!",
+            "PapayaPalace.png");
 
             newWorld.AddLocation(2, 0,
-            "Crinkle Dessert",
-            "You see a dessert",
-            "CrinkleDessert.png");
+            "PapayaPeak",
+            "You are on top of a papaya",
+            "PapayaPeak.png");
             newWorld.LocationAt(2, 0).AddMonster(4, 100);
 
             newWorld.AddLocation(1, -1,
-            "Tropical Cheese Beach",
-            "You see a beach!",
-            "TropicalCheeseBeach.png");
+            "PapayaPlains",
+            "Seedlings of papaya plants stand before you",
+            "PapayaPlains.png");
             newWorld.LocationAt(1, -1).AddMonster(5, 100);
 
             newWorld.AddLocation(1, -2,
-            "Cinnamon Coral Ocean",
-            "You're in the ocean",
-            "CinnamonCoralOcean.png");
+            "PapayaSprings",
+            "You're in a spring, made out of papaya juice",
+            "PapayaSprings.png");
 
             newWorld.AddLocation(2, -2,
-            "Choco Lava Island",
-            "You see an island",
-            "ChocoLavaIsland.png");
+            "The Great Papaya",
+            "You are inside of a papaya.",
+            "TheGreatPapaya.jpg");
             newWorld.LocationAt(2, -2).AddMonster(6, 100);
 
             
