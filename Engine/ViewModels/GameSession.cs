@@ -100,7 +100,7 @@ namespace Engine.ViewModels
 
             CurrentPlayer = new Player
             (
-                "Gerr-real",
+                "Nolan",
                 "Fighter",
                 10,
                 0,
