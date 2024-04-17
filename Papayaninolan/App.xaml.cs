@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace CC31B_TeamGyatt
+namespace CC31B_TeamKimat
 {
     /// <summary>
     /// Interaction logic for App.xaml
