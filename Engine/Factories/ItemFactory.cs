@@ -13,16 +13,16 @@ namespace Engine.Factories
         private static readonly List<GameItem> _standardGameItems = new List<GameItem>();
         static ItemFactory()
         {
-            BuildWeapon(1001, "Attack Stick", 0, "pack://application:,,,/Engine;component/Images/Items/stick.png", 0, 3);
-            BuildWeapon(1002, "Leaf Sword", 10, "pack://application:,,,/Engine;component/Images/Items/leafsword.png", 1, 4);
-            BuildWeapon(1003, "Fire Sword", 50, "pack://application:,,,/Engine;component/Images/Items/firesword.png", 1, 10);
-            BuildWeapon(1004, "Fire Gauntlet", 150, "pack://application:,,,/Engine;component/Images/Items/firegauntlet.png", 1, 25);
-            BuildWeapon(1005, "Water Magic", 0, "pack://application:,,,/Engine;component/Images/Items/watermagic.png", 5, 20);
-            BuildWeapon(1006, "Cursed Staff", 100, "pack://application:,,,/Engine;component/Images/Items/cursedstaff.png", 4, 10);
-            BuildWeapon(1007, "Ancient Companion", 0, "pack://application:,,,/Engine;component/Images/Items/ancientcompanion.png", 10, 30);
-            BuildWeapon(1008, "Mystical Sword", 200, "pack://application:,,,/Engine;component/Images/Items/mysticalsword.png", 1, 15);
-            BuildWeapon(1009, "Mystical Amulet", 200, "pack://application:,,,/Engine;component/Images/Items/mysticalamulet.png", 3, 13);
-            BuildWeapon(1010, "Mystical Glove", 200, "pack://application:,,,/Engine;component/Images/Items/mysticalglove.png", 6, 10);
+            BuildWeapon(1001, "Leaf Wings", 0, "leafwings.jpg", 0, 3);
+            BuildWeapon(1002, "Papaya Sword", 10, "papaya sword.png", 1, 4);
+            BuildWeapon(1003, "Seed Shield", 50, "seed shield.png", 1, 10);
+            BuildWeapon(1004, "SeedLings", 150, "seedlings.jpg", 1, 25);
+            BuildWeapon(1005, "Elixir Of Papaya", 0, "elixir of papaya.png", 5, 20);
+            BuildWeapon(1006, "CrossBow", 100, "crossbow.jpg", 4, 10);
+            BuildWeapon(1007, "Papaya Bag", 0, "papayag bag.jpg", 10, 30);
+            BuildWeapon(1008, "Papaya Food", 200, "papayafood.jpg", 1, 15);
+            BuildWeapon(1009, "Papaya wing", 200, "papaya wing.jpg", 3, 13);
+            BuildWeapon(1010, "Papaya Seeds", 200, "papaya seeds.jpg", 6, 10);
 
             BuildWeapon(1501, "Weak Magical Stick", 0, "villainitem", 0, 2);
             BuildWeapon(1502, "Dark Club", 0, "villainitem", 0, 3);
