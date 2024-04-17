@@ -50,51 +50,51 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Items\ancientcompanion.png" />
-    <Resource Include="Images\Items\cursedstaff.png" />
-    <Resource Include="Images\Items\firesword.png" />
-    <Resource Include="Images\Items\leafsword.png" />
-    <Resource Include="Images\Items\mysticalamulet.png" />
-    <Resource Include="Images\Items\mysticalglove.png" />
-    <Resource Include="Images\Items\mysticalsword.png" />
-    <Resource Include="Images\Items\watermagic.png" />
-    <Resource Include="Images\Monsters\ancientguardian.png" />
+    <Resource Include="Images\Items\papayag bag.jpg" />
+    <Resource Include="Images\Items\crossbow.jpg" />
+    <Resource Include="Images\Items\seed shield.png" />
+    <Resource Include="Images\Items\papaya sword.png" />
+    <Resource Include="Images\Items\papaya wing.jpg" />
+    <Resource Include="Images\Items\papaya seeds.jpg" />
+    <Resource Include="Images\Items\papayafood.jpg" />
+    <Resource Include="Images\Items\elixir of papaya.png" />
+    <Resource Include="Images\Monsters\leafwings.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Items\potion.png" />
-    <Resource Include="Images\Items\stick.png" />
-    <Resource Include="Images\Locations\cavernsofshadows.png" />
-    <Resource Include="Images\Locations\cavernsofshadows2.png" />
-    <Resource Include="Images\Locations\cityofancients.png" />
-    <Resource Include="Images\Locations\cityofancients2.png" />
-    <Resource Include="Images\Locations\crystallakeshore.png" />
-    <Resource Include="Images\Locations\crystallakeshore2.png" />
-    <Resource Include="Images\Locations\dragonspeak.png" />
-    <Resource Include="Images\Locations\dragonspeak2.png" />
-    <Resource Include="Images\Locations\enchantedforest.png" />
-    <Resource Include="Images\Locations\enchantedforest2.png" />
-    <Resource Include="Images\Locations\hauntedgraveyard.png" />
-    <Resource Include="Images\Locations\hauntedgraveyard2.png" />
-    <Resource Include="Images\Locations\home.png" />
-    <Resource Include="Images\Locations\home2.png" />
-    <Resource Include="Images\Locations\player.png" />
-    <Resource Include="Images\Locations\skywardsummit.png" />
+    <Resource Include="Images\Items\seedlings.jpg" />
+    <Resource Include="Images\Items\papayag bag.jpg" />
+    <Resource Include="Images\Locations\Papaya palace.png" />
+    <Resource Include="Images\Locations\Starlit Observatory.jpg" />
+    <Resource Include="Images\Locations\Citrus Grove.jpg" />
+    <Resource Include="Images\Locations\Papaya Grove.png" />
+    <Resource Include="Images\Locations\celestial garden.jpg" />
+    <Resource Include="Images\Locations\coral cathedral.jpg" />
+    <Resource Include="Images\Locations\forbidden jungle.png" />
+    <Resource Include="Images\Locations\papaya arena.jpg" />
+    <Resource Include="Images\Locations\papaya caverns.png" />
+    <Resource Include="Images\Locations\papaya enclave.png" />
+    <Resource Include="Images\Locations\papaya isles.png" />
+    <Resource Include="Images\Locations\papaya labyrinth.jpg" />
+    <Resource Include="Images\Locations\papaya papaya peak.png" />
+    <Resource Include="Images\Locations\papaya plains.png" />
+    <Resource Include="Images\Locations\papaya springs.png" />
+    <Resource Include="Images\Locations\papaya volcano.jpg" />
     <Resource Include="Images\Locations\skywardsummit2.png" />
-    <Resource Include="Images\Locations\volcanicforge.png" />
+    <Resource Include="Images\Locations\the great papaya.jpg" />
     <Resource Include="Images\Locations\volcanicforge2.png" />
     <Resource Include="Images\Monsters\cavetroll.png" />
-    <Resource Include="Images\Monsters\firedragon.png" />
-    <Resource Include="Images\Items\firegauntlet.png" />
-    <Resource Include="Images\Monsters\forestimp.png">
+    <Resource Include="Images\Monsters\whispering sands.jpg" />
+    <Resource Include="Images\Items\papaya sword.png" />
+    <Resource Include="Images\Monsters\papaya king.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\Monsters\ghost.png" />
-    <Resource Include="Images\Monsters\lavagolem.png" />
-    <Resource Include="Images\Monsters\placeholder.jpg" />
-    <Resource Include="Images\Monsters\randombguy.jpg" />
-    <Resource Include="Images\Monsters\waterdragon.png" />
-    <Resource Include="Images\Player\player.png" />
+    <Resource Include="Images\Monsters\Papayagos the  Enigmatic.png" />
+    <Resource Include="Images\Monsters\Papayakor The Malevolent.png" />
+    <Resource Include="Images\Monsters\Papayathorn the Shadowed.png" />
+    <Resource Include="Images\Monsters\Silent Sentinel.jpg" />
+    <Resource Include="Images\Monsters\captain papayazmo,Lord of the Rotten Fruits.jpg" />
+    <Resource Include="Images\Player\nolan.jpg" />
   </ItemGroup>
 
 </Project>
