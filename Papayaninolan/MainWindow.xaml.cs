@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CC31B_TeamGyatt
+namespace CC31B_TeamKimat
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
