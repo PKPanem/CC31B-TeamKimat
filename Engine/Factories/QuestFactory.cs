@@ -45,43 +45,43 @@ namespace Engine.Factories
             rewardItems6.Add(new ItemQuantity(1007, 1));
 
             s_Quests.Add(new Quest(1,
-                                  "Imp Infestation",
-                                  "Collect 5 Forest Imp Essences",
+                                  "Papaya Pests Plight",
+                                  "Harvest 5 Papaya Seedlings",
                                   itemsToComplete,
                                   25, 50,
                                   rewardItems));
 
             s_Quests.Add(new Quest(2,
-                                  "Forged in Flames",
-                                  "Secure a Lava Golem Core",
+                                  "Blazed in Papaya Fire",
+                                  "Obtain a Papaya Magma Heart",
                                   itemsToComplete2,
                                   50, 100,
                                   rewardItems2));
 
             s_Quests.Add(new Quest(3,
-                                  "Crystal Clear Waters",
-                                  "Retrieve a Water Elemental Crystal from the Water Elemental Dragon",
+                                  "Papaya Pure Springs",
+                                  "Acquire a Papaya Water Gem from the Papaya Water Serpent",
                                   itemsToComplete3,
                                   100, 200,
                                   rewardItems3));
 
             s_Quests.Add(new Quest(4,
-                                  "Dragon's Challenge",
-                                  "Obtain a Dragon Scale from the Fire Elemental Dragon",
+                                  "Papaya Dragon's Dare",
+                                  "Secure a Papaya Scale from the Fire Papaya Dragon",
                                   itemsToComplete4,
                                   100, 200,
                                   rewardItems4));
 
             s_Quests.Add(new Quest(5,
-                                  "Restless Spirits",
-                                  "Gather 3 Ghostly Orbs",
+                                  "Papaya Phantom Quest",
+                                  "Collect 3 Papaya Spirit Globes",
                                   itemsToComplete5,
                                   100, 200,
                                   rewardItems5));
 
             s_Quests.Add(new Quest(6,
-                                  "Guardians of the Ancients",
-                                  "Collect Ancient Guardian Relics",
+                                  "Papaya Protectors' Legacy",
+                                  "Gather Ancient Papaya Guardian Artifacts",
                                   itemsToComplete6,
                                   100, 200,
                                   rewardItems6));
