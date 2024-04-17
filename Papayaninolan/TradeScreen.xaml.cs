@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using Engine.Models;
 using Engine.ViewModels;
 
-namespace CC31B-TeamKimat
+namespace CC31B_TeamKimat
 {
     /// <summary>
     /// Interaction logic for TradeScreen.xaml
