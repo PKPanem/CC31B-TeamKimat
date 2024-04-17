@@ -19,12 +19,12 @@ namespace Engine.Factories
             }
 
             
-            Trader mystical = new Trader("Mystical Merchant");
+            Trader carandang = new Trader("Carandang");
             mystical.AddItemToInventory(ItemFactory.CreateGameItem(1008));
             mystical.AddItemToInventory(ItemFactory.CreateGameItem(1009));
             mystical.AddItemToInventory(ItemFactory.CreateGameItem(1010));
             AddTraderToList(mysterious);
-            AddTraderToList(mystical);
+            AddTraderToList(carandang);
 
         }
         public static Trader GetTraderByName(string name)
