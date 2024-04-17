@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\Items\ancientcompanion.png" />
-    <None Remove="Images\Items\cursedstaff.png" />
-    <None Remove="Images\Items\firesword.png" />
-    <None Remove="Images\Items\leafsword.png" />
-    <None Remove="Images\Items\mysticalamulet.png" />
-    <None Remove="Images\Items\mysticalglove.png" />
-    <None Remove="Images\Items\mysticalsword.png" />
-    <None Remove="Images\Items\potion.png" />
+    <None Remove="Images\Items\papayag bag.jpg" />
+    <None Remove="Images\Items\crossbow.jpg" />
+    <None Remove="Images\Items\seed shield.png" />
+    <None Remove="Images\Items\papaya sword.png" />
+    <None Remove="Images\Items\papaya wing.jpg" />
+    <None Remove="Images\Items\papaya seeds.jpg" />
+    <None Remove="Images\Items\papayafood.jpg" />
+    <None Remove="Images\Items\elixir of papaya.png" />
     <None Remove="Images\Items\stick.png" />
     <None Remove="Images\Items\watermagic.png" />
     <None Remove="Images\Locations\cavernsofshadows.png" />
