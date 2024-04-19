@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
-    <RootNamespace>CC31B_TeamKimat</RootNamespace>
+    <RootNamespace>CC31B-TeamKimat</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
